@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />  
+  </head>
+  
+  <body>
+    <div class = "login-wrapper">
+        <img src="상명대로고1.jpg" alt="상명대학교 로고">
+        &nbsp;  <!--한칸 띄우기 -->
+      <h2>SMU wifi login</h2>
+          <form method = "post" action = "서버의 url" id ="login-form">
+          <input type = "text" name = "userName" placeholder ="아이디">
+          <input type = "password" name ="userPassword" placeholder = "비밀번호">
+
+          <!--아이디 비밀번호 저장 체크-->
+          <label for ="remember-check">
+          <input type ="checkbox" id="remember-check"> 로그인 정보 저장</label>
+          <label for ="student-teacher-check">
+          
+            <!--학생 교직원 체크 -->
+          <input type ="checkbox" id="student-teacher-check"> 학생,교직원</label>
+          <label for ="student-teacher-mode">    
+
+            <!-- 외부인 체크 -->
+          <input type ="checkbox" id="others-check"> 외부인</label>
+          <input type = "submit" value="Login">
+          
+          <tr>
+            <td class = "join"><a href="join.html">회원가입</a></td>
+          </tr>
+    </div>
+  </body>
+</html>
